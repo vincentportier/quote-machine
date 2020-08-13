@@ -39,7 +39,7 @@ const App = () => {
     <div className="app">
       <div className="app__quote" id="quote-box">
         <h3 className="quote__text" id="text">
-          {`"${text}"`}
+          {isLoaded === false ? null : `"${text}"`}
           <span className="quote__author" id="author">
             {author !== null ? ` ${author}` : ""}
           </span>
