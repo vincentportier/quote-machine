@@ -53,7 +53,7 @@ const App = () => {
             <a
               id="tweet-quote"
               href={`https://twitter.com/intent/tweet?text=${text} ${author}`}
-              target="popup"
+              target="_blank"
             >
               <FontAwesomeIcon
                 icon={["fab", "twitter"]}
